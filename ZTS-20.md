@@ -97,8 +97,8 @@ Below is a simplified example of how a ZTS-20 token might be implemented in Soli
 ```solidity
 pragma solidity ^0.8.0;
 
-contract ZTSToken {
-    string public name = "Zether Token";
+contract ZTS20Token {
+    string public name = "ZTS20 Token";
     string public symbol = "ZTS";
     uint8 public decimals = 18;
     uint256 public totalSupply;
